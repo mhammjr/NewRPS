@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reset.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=BioRhyme' rel='stylesheet'>
+
     <title>ROCK, PAPER, SCISSORS</title>
 </head>
 <body>
-    <div id="container">
-        <button id="ROCK">Rock</button>
-        <button id="PAPER">Paper</button>
-        <button id="SCISSORS">Scissors</button>
+    <div id="container" class="container">
+        <h1 class="title" font-family='BioRhyme'><i>ROCK * PAPER * SCISSORS</i></h1>
+        <h3 class="instructions">Click on a hand to get started!</h3>
+    
+        <div class="button-container">
+        <button id="ROCK" class="rock"><i id="rock" class="em  em-right-facing_fist"></i></i></button>
+        <button id="PAPER" class="paper"><i id="paper" class="em  em-raised_hand_with_fingers_splayed"></i></i></button>
+        <button id="SCISSORS"class="scissors"><i id="scissors" class="em  em-v"></i></i></button>
+        </div>
     </div>
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+        </div>
+    </body>
 </html>

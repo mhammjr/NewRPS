@@ -1,0 +1,54 @@
+.container {
+  background-color: black;
+  color: rgb(138, 127, 127);
+  border-style: ridge;
+  border-color: red;
+  border-width: 20px;
+  border-radius: 20%;
+  height: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+.paper {
+  background-color: transparent;
+  border: none;
+}
+.rock {
+  background-color: transparent;
+  border: none;
+}
+.scissors {
+  background-color: transparent;
+  border: none;
+}
+#paper {
+  width: 150px;
+  height: 150px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+#rock {
+  width: 150px;
+  height: 150px;
+  margin-right: 15px;
+}
+#scissors {
+  width: 150px;
+  height: 150px;
+  margin-left: 15px;
+}
+.button-container {
+  display: inline-block;
+  align-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.instructions {
+  text-align: center;
+}
+.title {
+  color: rgb(197, 26, 26);
+  text-shadow: rgb(219, 212, 211);
+}
